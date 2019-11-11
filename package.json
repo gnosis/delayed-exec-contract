@@ -1,0 +1,23 @@
+{
+  "name": "delayed-exec-contract",
+  "version": "0.1.0",
+  "description": "Contract which announces its transactions in advance.",
+  "main": "index.js",
+  "dependencies": {
+    "chai-as-promised": "^7.1.1",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint": "^6.3.0",
+    "eth-gas-reporter": "^0.2.11",
+    "eth-sig-util": "^2.4.4",
+    "husky": "^3.0.5",
+    "lint-staged": "^9.2.5",
+    "truffle": "^5.0.36",
+    "web3": "^2.0.0-alpha.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "truffle test"
+  },
+  "author": "",
+  "license": "GPL-3.0"
+}
